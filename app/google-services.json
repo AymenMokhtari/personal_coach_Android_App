@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "783246103044",
+    "project_id": "coachathome-187309"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783246103044:android:2d41eed1defa843b",
+        "android_client_info": {
+          "package_name": "com.example.aymen.personalcoach"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783246103044-h9qd6ngcpbndutt2m34id32i3ll64k5q.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "783246103044-i9jbao23k5am99dc407depf1fv831e3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aymen.personalcoach",
+            "certificate_hash": "046b6af22861743d4eae43a223cc62cae6a10ddb"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh3GRiVMmG5kspsBGxTrwzyPxue5uZRuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

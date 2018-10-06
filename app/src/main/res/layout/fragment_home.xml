@@ -1,0 +1,196 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.aymen.personalcoach.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have to reach  "
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/stepsTextHome"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="steps today"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10sp"
+        />
+
+
+</LinearLayout>
+
+
+        <TextView
+            android:id="@+id/updateDailySteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update target"
+            android:textSize="12sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        TextView
+            android:id="@+id/stepsCountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+
+            />
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/stepPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"></com.github.mikephil.charting.charts.PieChart>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/startRunningHomeBtn"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/run"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Start Running"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/azur"
+                        android:layout_margin="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Set your target distance and start running"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimary"
+
+
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageButton
+                        android:id="@+id/updateWeight"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:background="@drawable/weight"
+                        android:padding="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:text="Update Your Weight"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/azur"
+                        android:layout_margin="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Update your current weight and get new BMR"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

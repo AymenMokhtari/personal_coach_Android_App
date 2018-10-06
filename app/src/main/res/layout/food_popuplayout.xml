@@ -1,0 +1,204 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/popup_element"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:drawable/dialog_holo_light_frame"
+              android:orientation="vertical"
+              android:padding="10sp"
+
+    >
+
+    <TextView
+        android:id="@+id/foodnamePop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/azur"/>
+    <TextView
+
+        android:id="@+id/foodDesPcop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:textColor="@color/azur"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal" >
+
+        <EditText
+            android:id="@+id/qteText"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            tools:text="1"/>
+
+        <Spinner
+            android:id="@+id/mesumrementUnitsSpiner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:spinnerMode="dialog"
+
+            >
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories :"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/caloriesTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 200kl"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Protein :"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+        <TextView
+            android:id="@+id/proteinTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50g"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carbs :"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/carbsTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 200kl"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fat :"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+        <TextView
+            android:id="@+id/fatTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50g"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiber :"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/fiberTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 200kl"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcium :"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorPrimary"
+
+            />
+
+        <TextView
+            android:id="@+id/calciumTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50g"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/rdiProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <Button
+        android:id="@+id/btn_close_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Close" />
+    <Button
+        android:id="@+id/btn_add_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="Add" />
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bgblur">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+        <TextView
+
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="PLEASE LOGIN TO YOUR ACCOUNT. "
+            android:textAlignment="center"
+            android:textColor="@color/azur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+
+            <EditText
+                android:background="@drawable/edittextstyle"
+                android:hint=""
+                android:layout_marginTop="20dp"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="text"
+                android:alpha="0.5"
+                android:id="@+id/usernameLogin"
+
+                />
+        <EditText
+            android:background="@drawable/edittextstyle"
+            android:hint=""
+            android:layout_marginTop="20dp"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="text"
+            android:alpha="0.5"
+            android:id="@+id/passwordLogin"
+
+            />
+
+
+
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:width="150dp"
+            android:background="@drawable/btnraduis"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            />
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="18sp"
+                android:text="OR"
+                android:textColor="#FFFFFF"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toLeftOf="@id/tvText"
+                android:background="@color/colorPrimary"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@id/tvText"
+                android:background="@color/colorPrimary"
+                />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.CheckableImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="210dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/google"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

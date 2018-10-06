@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bgblur">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+        <TextView
+
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Sign up with your Email "
+            android:textColor="@color/azur"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+
+        <EditText
+            android:id="@+id/FirstNameRegisterText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:autofillHints="Email"
+            android:background="@drawable/edittextstyle"
+            android:hint="First Name"
+            android:inputType="text"
+            android:alpha="0.5"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/lastNameRegisterText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:hint="Last Name"
+            android:inputType="number"
+            android:alpha="0.5"
+
+            />
+
+        <EditText
+            android:id="@+id/emailRegisterText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:hint="Email"
+            android:inputType="text"
+            android:alpha="0.5"
+
+            />
+
+        <EditText
+            android:id="@+id/passwordRegisterText"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:hint="Password"
+            android:inputType="text"
+            android:alpha="0.5"
+
+            />
+        <Button
+            android:id="@+id/next5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:width="150dp"
+            android:background="@drawable/btnraduis"
+            android:textColor="@color/white"
+            android:text="register"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TextView
+
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Other options "
+            android:textColor="@color/azur"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginBottom="20dp"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    >
+    <android.support.design.widget.CheckableImageButton
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/google"/>
+    <android.support.design.widget.CheckableImageButton
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+
+        android:scaleType="fitCenter"
+        android:src="@drawable/facebook"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

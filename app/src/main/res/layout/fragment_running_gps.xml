@@ -1,0 +1,118 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.example.aymen.personalcoach.RunningGps">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+        <ToggleButton
+            android:id="@+id/btnStartStop"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="30px"
+            android:checked="false"
+            android:paddingBottom="50px"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:paddingTop="50px"
+            android:text="New ToggleButton"
+            android:textOff="Start Run"
+            android:textOn="Pause"
+            />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Finish Run"
+        android:id="@+id/finishRun"/>
+</LinearLayout>
+        <TextView
+            android:id="@+id/statusgps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/averageTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+
+        <TextView
+            android:id="@+id/distanceTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <pl.pawelkleczkowski.customgauge.CustomGauge
+            android:padding="10dp"
+            android:id="@+id/currentSpeed"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            app:gaugeEndValue="50"
+            app:gaugePointEndColor="@color/colorPrimaryDark"
+            app:gaugePointStartColor="@color/colorPrimaryDark"
+            app:gaugeStartAngle="135"
+            app:gaugeStartValue="10"
+            app:gaugeStrokeCap="BUTT"
+            android:layout_gravity="center_horizontal"
+            app:gaugeSweepAngle="280"
+
+            app:gaugeStrokeWidth="10dp"/>
+
+    <TextView
+        android:id="@+id/currentSpeedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/currentSpeed"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="256"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/distanceProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/currentTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"/>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

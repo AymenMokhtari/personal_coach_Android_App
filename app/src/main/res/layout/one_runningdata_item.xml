@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center_horizontal"
+
+
+    >
+    <TextView
+        android:id="@+id/foodNameItemh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workout of :"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/runingDateItem"
+        android:layout_marginLeft="10dp"
+        android:text="45/54/54"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginRight="15dp"
+    >
+
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/distanceItemRuning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+</LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average speed"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/averageItemRunning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1200"
+
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calories burned:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/caloriesItemRunning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1200"
+
+                android:textSize="18sp"
+                />
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+

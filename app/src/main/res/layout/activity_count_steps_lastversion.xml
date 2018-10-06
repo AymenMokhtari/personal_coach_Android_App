@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aymen.personalcoach.CountStepsWeekOfData">
+
+    <Button
+        android:id="@+id/btn_view_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="56dp"
+        android:text="Week"
+        app:layout_constraintEnd_toStartOf="@+id/btn_view_today"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_view_today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:layout_marginTop="56dp"
+        android:text="today"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/day1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="152dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/day2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day1"/>
+
+    <TextView
+        android:id="@+id/day3"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="56dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"/>
+
+    <TextView
+        android:id="@+id/day4"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="104dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"/>
+
+    <TextView
+        android:id="@+id/day5"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="232dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"/>
+
+    <TextView
+        android:id="@+id/day6"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="136dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"/>
+
+    <TextView
+        android:id="@+id/day7"
+        android:layout_width="wrap_content"
+        android:layout_height="12dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="188dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day2"/>
+
+</android.support.constraint.ConstraintLayout>

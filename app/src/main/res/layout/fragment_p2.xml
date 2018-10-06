@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bgblur">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+
+
+        <TextView
+
+            android:id="@+id/text1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="what is your current weight ? "
+            android:textColor="@color/azur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="70dp"
+
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20sp">
+
+    <EditText
+        android:background="@drawable/edittextstyle"
+        android:hint=""
+        android:layout_marginTop="35dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="60"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:alpha="0.5"
+        android:id="@+id/weightRegiterText"
+
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="7dp"
+        android:shadowColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="5"
+        android:text="KG"
+        android:textAllCaps="true"
+        android:textColor="@color/azur"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
+        <TextView
+
+            android:id="@+id/text3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="what is your gender ? "
+            android:textColor="@color/azur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginBottom="20dp"
+            />
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/genderRegisterText"
+            segmentedgroup:sc_tint_color="@color/colorPrimary"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+            <RadioButton
+                android:id="@+id/maleRegisterRadio"
+                android:layout_width="100dp"
+                style="@style/RadioButton"
+                android:height="70dp"
+                android:text="Male"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+            <RadioButton
+                android:height="70dp"
+    android:id="@+id/femaleRegisterRadio"
+                android:layout_width="100dp"
+                style="@style/RadioButton"
+                android:text="Female"
+                android:textColor="@color/white"
+                android:textSize="25dp"/>
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+
+            <Button
+                android:id="@+id/btngo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:width="150dp"
+                android:background="@drawable/btnraduis"
+                android:textColor="@color/white"
+                android:text="next"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

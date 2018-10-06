@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+              android:paddingTop="10dp"
+              android:paddingBottom="10dp"
+    >
+
+
+    <TextView
+        android:id="@+id/foodNameItemh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oat Meal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+
+
+
+            />
+
+        <TextView
+            android:id="@+id/qtetxtItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories :"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/caloriestxtItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="1200"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="18sp"
+            />
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteFoodHistory"
+            android:background="@drawable/deleteimgb"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

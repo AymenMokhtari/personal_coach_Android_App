@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/popup_element"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:drawable/dialog_holo_light_frame"
+              android:orientation="vertical"
+android:layout_margin="20dp"
+              android:padding="10sp"
+
+    >
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/closeWindowUpdate"
+        android:background="@drawable/deleteimgb"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:background="@drawable/edittextstyle"
+        android:hint="your new weight in kg"
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/updateWeightText"
+        android:inputType="number"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/updateWeightBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:width="150dp"
+        android:background="@drawable/btnraduis"
+        android:textColor="@color/white"
+        android:text="Update"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+
+</LinearLayout>
