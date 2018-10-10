@@ -1,5 +1,15 @@
 # personal_coach-
 Health &amp; Fitness App ,  it allows you to Keep track of your food, exercise and weight
+
+
+
+<p align="center">
+  <img src="screenShots/Screenshot_2018-09-18-19-30-03.png" width="350" title="hover text">
+  <img src="screenShots/Screenshot_2018-09-18-19-30-07.png" width="350" alt="accessibility text">
+</p>
+![](screenShots/Screenshot_2018-09-18-19-30-03.png | width=50)
+
+sss
 ![alt text](screenShots/Screenshot_2018-09-18-19-30-03.png )
 ![alt text](screenShots/Screenshot_2018-09-18-19-30-07.png )
 ![alt text](screenShots/Screenshot_2018-09-18-19-30-12.png )
