@@ -13,7 +13,7 @@ Health &amp; Fitness App ,  it allows you to Keep track of your food, exercise a
   <img src="screenShots/Screenshot_2018-09-18-19-31-33.png" width="350">
   <br/>
   <img src="screenShots/Screenshot_2018-09-25-11-14-39.png" width="350">
-  <br/>
+  
   <img src="screenShots/Screenshot_2018-09-18-19-32-31.png" width="350">
   <img src="screenShots/Screenshot_2018-09-18-19-33-05.png" width="350">
   <img src="screenShots/Screenshot_2018-09-18-19-33-11.png" width="350">
